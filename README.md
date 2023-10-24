@@ -1,3 +1,3 @@
 # Mid-Term Project
 
-## Binary Classification of Software Defects
+## Heart Attack Risk Analysis
