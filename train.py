@@ -15,7 +15,7 @@ from sklearn.metrics import roc_auc_score
 import xgboost as xgb
 
 # Import Data
-url = 'data/train.csv'
+url = 'data/data.csv'
 
 df = pd.read_csv(url)
 
