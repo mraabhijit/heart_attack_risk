@@ -74,20 +74,20 @@ User may change the parameters to test out different scenarios by changing value
 
 #### Allowed parameters for features (with restrictions):
 
-gender: male/female
-diabetes - yes/no
-family_history - yes/no
-smoking - yes/no
-obesity - yes/no
-alcohol_consumption - none/light/moderate/heavy
-diet - healthy/average/unhealthy
-previous_heart_problems - yes/no
-medication_use - yes/no
-stress_level - 1-10
-sedentary_hours_per_day - 0-24
-Physical Activity Days Per Week - 0-7
-Sleep Hours Per Day - 0-24
-Country - One of ['Argentina', 'Nigeria', 'Thailand', 'Spain', 'Germany', 'France',
+- gender: male/female
+- diabetes - yes/no
+- family_history - yes/no
+- smoking - yes/no
+- obesity - yes/no
+- alcohol_consumption - none/light/moderate/heavy
+- diet - healthy/average/unhealthy
+- previous_heart_problems - yes/no
+- medication_use - yes/no
+- stress_level - 1-10
+- sedentary_hours_per_day - 0-24
+- physical_activity_days_per_week - 0-7
+- sleep_hours_per_day - 0-24
+- country - One of ['Argentina', 'Nigeria', 'Thailand', 'Spain', 'Germany', 'France',
        'South Africa', 'Colombia', 'Italy', 'China', 'Vietnam',
        'United States', 'Japan', 'Canada', 'India', 'United Kingdom',
        'New Zealand', 'Brazil', 'South Korea', 'Australia']
