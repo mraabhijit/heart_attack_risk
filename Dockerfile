@@ -10,7 +10,7 @@ WORKDIR /app
 COPY ["Pipfile", "Pipfile.lock", "./"]
 
 # Create virtual environment in local system using --system --deploy
-RUN pipenv install --system --deploy --ignore-pipfile
+RUN pipenv install --system --deploy
 
 # Copy predict.py and model.bin files to /app
 COPY ["predict.py", "model.bin", "./"]
