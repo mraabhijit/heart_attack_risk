@@ -31,7 +31,7 @@ git clone https://github.com/abhijitchak103/heart_attack_risk.git
 
 ### Acquiring Data
 
-The data used for training the predictive model is stored in `/data/train.csv` in this repo.
+The data used for training the predictive model is stored in `/data/data.csv` in this repo.
 
 ### Using Docker Image
 
