@@ -15,6 +15,7 @@ This dataset provides a comprehensive array of features relevant to heart health
 ### Prerequisites
 
 ```python
+conda
 python
 git
 docker
@@ -33,7 +34,21 @@ git clone https://github.com/abhijitchak103/heart_attack_risk.git
 
 The data used for training the predictive model is stored in `/data/data.csv` in this repo.
 
-### Using Docker Image
+### Development and building
+
+To develop or test out the notebooks you need to first create the development environment.
+```
+conda create -n {env-name} python==3.11 -y
+```
+```
+conda activate {env-name}
+```
+```
+pip install -r requirements_dev.txt
+```
+This would create your local environment and install all the dependencies required to use the scripts/notebooks.
+
+### Using Docker Image To Predict
 
 ```
 docker build -t {build-tag} .
@@ -104,7 +119,7 @@ python predict-test.py
 
 ## Sample Output
 
-Locally, user shoudl be able to get a similar output to the one shown below upon running all steps successfully.
+Locally, user should be able to get a similar output to the one shown below upon running all steps successfully.
 
 ![sample_output](output.JPG)
 
